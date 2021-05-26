@@ -91,8 +91,5 @@ void Graph::loadToHeap(Heap<Ip>& heap) {
     for (int i = 0; i < nodes.size(); i++) {
         nodes[i].setAdj(data[i].size());
         heap.push(nodes[i].setMode(HeapNode));
-        if (i < 10) {
-            cout << nodes[i].getAdj() << endl;
-        }
     }
 }

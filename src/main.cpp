@@ -1,5 +1,5 @@
 #include <iostream>
-#include "heap.h"
+#include "util/heap.h"
 #include "graph.h"
 
 using namespace std;
